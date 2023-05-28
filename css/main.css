@@ -3,6 +3,14 @@
 *::before {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  src: local(""),
+  url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype"),
+}
 body {
   margin: 0;
 }
@@ -13,10 +21,7 @@ body {
 }
 .site-header {
   width: 50%;
-  margin-top: 25.5px;
-  margin-bottom: 25.5px;
-  margin-left: 25.8%;
-  margin-right: 25.8%;
+  margin: 25.5px 25.8%;
 }
 .site-nav {
   display: block;
@@ -53,12 +58,13 @@ img {
   height: auto;
 }
 .site-main {
+  width: 100%;
+  height: auto;
   text-align: center;
   background: rgba(0, 0, 0, 0.0001);
 }
 .site-main-header {
 font-family: 'Montserrat';
-font-style: normal;
 font-weight: 700;
 font-size: 22px;
 line-height: 27px;
@@ -67,18 +73,17 @@ text-transform: uppercase;
 color: #373737;
 }
 .site-main-content {
-font-family: 'Montserrat';
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-letter-spacing: 2.4px;
-color: #373737;
-margin: 48px 67.5px 0px 67.5px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  color: #373737;
+  margin: 48px 67.5px 0px;
 }
 .button {
-cursor: pointer;
-margin: 66px 0px 0px 0px;
+margin-top: 66px;
 border: 1px solid #FF0000;
 background: #FF0000;
 border-radius: 4px;
@@ -92,20 +97,22 @@ align-items: center;
 letter-spacing: 1.8px;
 text-transform: uppercase;
 color: #FFFFFF;
+cursor: pointer;
 }
 
 .button:hover {
   background-color: white;
   color: #FF0000;
   border: 1px solid #FF0000;
-  cursor: auto;
+  cursor: pointer;
 }
 
 .site-footer {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 700;
   font-size: 16;
   line-height: 19.5px;
+  text-transform: uppercase;
   color: #373737;
   margin: 80px 105px 30px 0px;
   text-align: right;
