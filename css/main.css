@@ -1,0 +1,119 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  src: local(""),
+  url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype"),
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0 0;
+}
+.site-header {
+  width: 50%;
+  margin: 25.5px 25.8%;
+}
+.site-nav {
+  display: block;
+}
+.site-menu {
+  display: block;
+  white-space: nowrap;
+  list-style: none;
+  padding-inline-start: 0px;
+  padding: 0;
+}
+.site-menu-item {
+  padding-right: 5.9005%;
+  padding-left: 5.9005%;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+
+}
+.site-menu-link {
+  text-decoration: none;
+  color: #ff0000;
+}
+.site-menu-link:hover {
+  background-color: #FF0000;
+  color: #FFFFFF;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.site-main {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.0001);
+}
+.site-main-header {
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+letter-spacing: 3.3px;
+text-transform: uppercase;
+color: #373737;
+}
+.site-main-content {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 2.4px;
+  color: #373737;
+  margin: 48px 67.5px 0px;
+}
+.button {
+margin-top: 66px;
+border: 1px solid #FF0000;
+background: #FF0000;
+border-radius: 4px;
+user-select: none;
+padding: 18px 42px;
+font-family: 'Montserrat';
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+align-items: center;
+letter-spacing: 1.8px;
+text-transform: uppercase;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #FF0000;
+  border: 1px solid #FF0000;
+  cursor: pointer;
+}
+
+.site-footer {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 16;
+  line-height: 19.5px;
+  text-transform: uppercase;
+  color: #373737;
+  margin: 80px 105px 30px 0px;
+  text-align: right;
+}
